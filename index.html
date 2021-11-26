@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="https://img.icons8.com/fluent-systems-filled/48/000000/circled-r.png">
+        <title>Rian Bispo</title>
+    </head>
+    <body>
+        <!-- header -->
+        <header class="menu">
+            <div class="menu-logo">
+                <p>RIAN.</p>
+            </div>
+            <div class="menu-right">
+                <a href="" class="link">Home</a>
+                <a href="#works" class="link">Works</a>
+                <a href="#contact" class="link">Contact Me</a>
+            </div>
+        </header>
+
+        <section class="container hero">
+            <div class="container-item">
+                <div class="me"><p>Hi I'm</p></div>
+                    <div class="mb-4 name">
+                        <h1>Rian Bispo</h1>
+                    </div>
+                    <div class="mb-4">
+                        <div><h3>Front-End Developer</h3></div>
+                        <div><h3>Website Creator</h3></div>
+                    </div>
+                 
+            </div>
+                <div class="container-item mt-8 me">
+                    <div class="mt-9">
+                        <h3>I'm a front-end dev and passionate about creating websites.</h3>
+                        <p class="mt-3"><img src="assets/placeholder.png" class="map">São Paulo, Brazil </p>
+                    </div>
+                </div>
+
+                <div class="center">
+                    <div class="down"></div>
+                </div>
+
+        </section>
+
+            <!-- selected works -->
+
+            <section class="list" id="section-01">
+                <div class="list-item">
+                    <h2 id="works">Recent Projects</h2>
+                </div>
+
+                <div class="list-item py-5">
+                    <p class="color-gray mr-2">02.</p>
+                    <a href="HealthMedical/index.html" target="_blank"><h3>Health Medical</h3></a>
+                    <img src="assets/HealthMedical.png" class="img-project">
+                </div>
+
+                <div class="bb-gray"></div>
+
+                <div class="list-item py-6 work">
+                    <p class="color-gray mr-2">01.</p>
+                    <a href="Finans/index.html" target="_blank"><h3>Finans</h3></a>
+                    <img src="assets/Finans.png" class="img-project">
+                </div>       
+
+                <div class="bb-gray"></div>
+
+                <div class="list-item py-5">
+                    <p class="color-gray mr-2">03.</p>
+                    <a href="Loruki/index.html" target="_blank"><h3>Loruki</h3></a>
+                    <img src="assets/Loruki.png" class="img-project">
+                </div>
+            </section>
+
+            <section class="get mt-5" id="section-02">
+                <h2 id="contact">Contact Me</h2>
+                <h4 class="mt-7 text-center">rianbisposantana04@gmail.com</h4>
+                <div class="text-center mt-3">
+                    <a href="https://github.com/rianbispo" target="_blank"><img src="assets/github.svg" class="icons"></a>
+                    <a href="https://www.instagram.com/bisppo04/" target="_blank"><img src="assets/instagram.svg" class="icons ml-2"></a>
+                    <a href="https://www.linkedin.com/in/rian-bispo-a243a219b" target="_blank"><img src="assets/linkedin.svg" class="icons ml-2"></a>
+                </div>
+            </section>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js" integrity="sha512-2fk3Q4NXPYAqIha0glLZ2nluueK43aNoxvijPf53+DgL7UW9mkN+uXc1aEmnZdkkZVvtJZltpRt+JqTWc3TS3Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/ScrollTrigger.min.js" integrity="sha512-jNJOCd1PIjJoUa1XTDKaPdBLNUe4OJTrltKG+70O5ghYZ943nTRGIzjObwC2JtSm1fG7T06GbUApR2eirIU/jA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+            <!-- <script>
+                document.addEventListener('DOMContentLoaded', () => {
+                    var tl = gsap.timeline();
+
+                    tl
+                    .from(".menu", {
+                        duration: 1,
+                        opacity: 0,
+                        delay: .5,
+                        y: 50,
+                    })
+                    .from(".container-item div", {
+                        duration: 1,
+                        opacity: 0,
+                        delay: .2,
+                        y: 50,
+                        stagger: {each: 0.2},
+                    })
+                    .from(".bg-hero", {
+                        duration: 1,
+                        opacity: 0,
+                        delay: .2,
+                        y: 50,
+                        stagger: {each: 0.2},
+                    })
+
+                    gsap.registerPlugin(ScrollTrigger);
+
+                    gsap.from("#section-01 div", {
+                        duration: 1,
+                        opacity: 0,
+                        delay: .2,
+                        stagger: {each: 0.2},
+                        y: 50,
+                        scrollTrigger: {
+                            trigger: "#section-01",
+                        }
+                    })
+
+                    gsap.from("#section-02 div", {
+                        duration: 1,
+                        opacity: 0,
+                        delay: .2,
+                        stagger: {each: 0.2},
+                        y: 50,
+                        scrollTrigger: {
+                            trigger: "#section-02",
+                        }
+                    })
+                })
+            </script> -->
+    </body>
+</html>
