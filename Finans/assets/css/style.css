@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,100;1,400;1,700&display=swap');
+
+
+body{
+	overflow-x: hidden;
+	font-family: 'Poppins', sans-serif;
+}
+
+.bg-color{
+	background-color: #5cb85c;
+}
+
+.nav-color{
+	background-color: #5cb85c;
+}
+
+@media(max-width: 600px){
+	.img{
+		width: 200px;
+		height: 80px;
+	}
+
+	.img-saiba{
+		margin-top: 10px;
+		width: 300px;
+		height: 200px;
+	}
+
+	.input-group{
+		display: none;
+	}
+
+	.text-header{
+		max-width: 250px;
+	}
+
+	.title{
+		max-width: 520px;
+	}
+
+	#data-table{
+		width: 70%;
+		border-spacing: 0 0.5rem;
+		color: #969cb3;
+	  
+	}
+	
+	.card{
+		width: 70%;
+	}
+
+	.social-medias{
+		justify-content: center;
+	}
+}
+
+@media(max-width: 767px){
+	.img-background{
+		display: block;
+	}
+
+	.saiba{
+		flex-direction: column;
+	}
+
+	.img{
+		width: 100px;
+	}
+}
+
+.img{
+	height: 470px;
+	width: 400px;
+}
+
+#home{
+	color: #fff;
+}
+
+.caixa{
+	padding: 60px 0;
+	margin-bottom: 1px solid #e5e5e5;
+}
+
+
+footer p a{
+	margin: 5px 15px;
+}
+
+.navbar-nav .nav-item a{
+	font-size: 18px;
+	font-weight: 500;
+}
